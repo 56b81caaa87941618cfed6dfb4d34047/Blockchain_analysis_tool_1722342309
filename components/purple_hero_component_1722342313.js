@@ -22,6 +22,11 @@ Vue.component("purple_hero_component_1722342313", {
                                 <span id="docs-button-text">Read the docs</span>
                             </a>
                         </div>
+                        <div id="hello-world-button-container" class="flex">
+                            <button id="hello-world-button" class="flex-1 btn bg-blue-500 hover:bg-blue-600 text-white w-full transition duration-150 ease-in-out">
+                                Hello World
+                            </button>
+                        </div>
                     </div>
     
                 </div>
