@@ -8,6 +8,15 @@
 
 Vue.component("dark_footer_component_1722342313", {
     template: `
+<div class="flex">
+    <div class="w-64 bg-gray-800 h-screen">
+        <nav class="mt-5">
+            <a href="#" class="block py-2 px-4 text-white hover:bg-gray-700">Home</a>
+            <a href="#" class="block py-2 px-4 text-white hover:bg-gray-700">About</a>
+            <a href="#" class="block py-2 px-4 text-white hover:bg-gray-700">Contact</a>
+        </nav>
+    </div>
+    <div class="flex-1">
 <footer id="footer-section-container">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
  
@@ -66,7 +75,9 @@ Vue.component("dark_footer_component_1722342313", {
             </div>
         </div>
     </div>
-</footer>`,
+</footer>
+    </div>
+</div>
     data() {
         return {
             expanded: false,
