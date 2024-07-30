@@ -15,11 +15,11 @@ Vue.component("purple_header_component_1722342313", {
                 <nav id="desktop-navigation" class="hidden md:flex md:grow">
     
                     <ul id="desktop-menu-links" class="flex grow justify-center flex-wrap items-center">
-                        <li><a id="HEADER_NAVBAR_TEXT_1-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" :class="[textStylePrimary, hoverTextStylePrimary]" href="HEADER_NAVBAR_TEXT_1.html">HEADER_NAVBAR_TEXT_1</a></li>
-                        <li><a id="HEADER_NAVBAR_TEXT_2-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="HEADER_NAVBAR_TEXT_2.html" :class="[textStylePrimary, hoverTextStylePrimary]">HEADER_NAVBAR_TEXT_2</a></li>
-                        <li><a id="HEADER_NAVBAR_TEXT_3-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="HEADER_NAVBAR_TEXT_3.html" :class="[textStylePrimary, hoverTextStylePrimary]">HEADER_NAVBAR_TEXT_3</a></li>
-                        <li><a id="HEADER_NAVBAR_TEXT_4-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="HEADER_NAVBAR_TEXT_4.html" :class="[textStylePrimary, hoverTextStylePrimary]">HEADER_NAVBAR_TEXT_4</a></li>
-                        <li><a id="HEADER_NAVBAR_TEXT_5-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="HEADER_NAVBAR_TEXT_5.html" :class="[textStylePrimary, hoverTextStylePrimary]">HEADER_NAVBAR_TEXT_5</a></li>
+                        <li><a id="Explore Blockchain-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" :class="[textStylePrimary, hoverTextStylePrimary]" href="Explore Blockchain.html">Explore Blockchain</a></li>
+                        <li><a id="Analytics Suite-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="Analytics Suite.html" :class="[textStylePrimary, hoverTextStylePrimary]">Analytics Suite</a></li>
+                        <li><a id="Insights Platform-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="Insights Platform.html" :class="[textStylePrimary, hoverTextStylePrimary]">Insights Platform</a></li>
+                        <li><a id="Data Visualization-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="Data Visualization.html" :class="[textStylePrimary, hoverTextStylePrimary]">Data Visualization</a></li>
+                        <li><a id="Blockchain Intelligence-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="Blockchain Intelligence.html" :class="[textStylePrimary, hoverTextStylePrimary]">Blockchain Intelligence</a></li>
                     </ul>
     
                 </nav>
@@ -42,11 +42,11 @@ Vue.component("purple_header_component_1722342313", {
     
                     <nav id="mobile-nav" class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" x-ref="mobileNav" :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'" @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-cloak>
                         <ul id="mobile-nav-list" class="border border-transparent rounded-lg px-4 py-1.5" :class="signUpButtonGradient">
-                            <li><a id="mobile-HEADER_NAVBAR_TEXT_1-link" class="flex font-medium text-sm py-1.5" href="HEADER_NAVBAR_TEXT_1.html" :class="[textStylePrimary,hoverTextStylePrimary]">HEADER_NAVBAR_TEXT_1</a></li>
-                            <li><a id="mobile-HEADER_NAVBAR_TEXT_2-link" class="flex font-medium text-sm py-1.5" href="HEADER_NAVBAR_TEXT_2.html" :class="[textStylePrimary,hoverTextStylePrimary]">HEADER_NAVBAR_TEXT_2</a></li>
-                            <li><a id="mobile-HEADER_NAVBAR_TEXT_3-link" class="flex font-medium text-sm py-1.5" href="HEADER_NAVBAR_TEXT_3.html" :class="[textStylePrimary,hoverTextStylePrimary]">HEADER_NAVBAR_TEXT_3</a></li>
-                            <li><a id="mobile-HEADER_NAVBAR_TEXT_4-link" class="flex font-medium text-sm py-1.5" href="HEADER_NAVBAR_TEXT_4.html" :class="[textStylePrimary,hoverTextStylePrimary]">HEADER_NAVBAR_TEXT_4</a></li>
-                            <li><a id="mobile-HEADER_NAVBAR_TEXT_5-link" class="flex font-medium text-sm py-1.5" href="HEADER_NAVBAR_TEXT_5.html" :class="[textStylePrimary,hoverTextStylePrimary]">HEADER_NAVBAR_TEXT_5</a></li>
+                            <li><a id="mobile-Explore Blockchain-link" class="flex font-medium text-sm py-1.5" href="Explore Blockchain.html" :class="[textStylePrimary,hoverTextStylePrimary]">Explore Blockchain</a></li>
+                            <li><a id="mobile-Analytics Suite-link" class="flex font-medium text-sm py-1.5" href="Analytics Suite.html" :class="[textStylePrimary,hoverTextStylePrimary]">Analytics Suite</a></li>
+                            <li><a id="mobile-Insights Platform-link" class="flex font-medium text-sm py-1.5" href="Insights Platform.html" :class="[textStylePrimary,hoverTextStylePrimary]">Insights Platform</a></li>
+                            <li><a id="mobile-Data Visualization-link" class="flex font-medium text-sm py-1.5" href="Data Visualization.html" :class="[textStylePrimary,hoverTextStylePrimary]">Data Visualization</a></li>
+                            <li><a id="mobile-Blockchain Intelligence-link" class="flex font-medium text-sm py-1.5" href="Blockchain Intelligence.html" :class="[textStylePrimary,hoverTextStylePrimary]">Blockchain Intelligence</a></li>
                         </ul>
                     </nav>
     
